@@ -1,0 +1,26 @@
+.document {
+    height: 100%;
+}
+
+.content {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background-color: darkslategrey;
+}
+
+.main {
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+    .document {
+        height: 100%;
+        font-size: 2.2vw;
+    }
+    .mask {
+        width: 40vw;
+        max-width: 255px;
+    }
+}

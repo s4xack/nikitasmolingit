@@ -1,0 +1,42 @@
+.nav {
+        margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    z-index: 100;
+}
+
+.nav__link {
+    display: block;
+    color: aquamarine;
+    text-align: center; 
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: serif;
+}
+
+.nav__item {
+    float: right;
+}
+
+.nav__link:hover {
+    background-color: darkslategrey;
+}
+
+.bd
+{
+    background-color: darkslategrey;
+}
+
+.imgg
+{
+    box-shadow: 10px 5px 5px  #333;
+}
+
+
+main { margin: 200px 200px 200px 200pxs; 
+}
